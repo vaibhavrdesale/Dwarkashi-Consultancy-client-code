@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+/* font-family: 'Besley', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+:root{
+    --main-bg-color:rgb(109, 109, 109);
+    --font1:'Hina Mincho', serif;
+    --font2:'Roboto Slab', serif;
+    --font3:'Alice', serif;
+    --font4:'Lobster', cursive;
+    --font5: cursive;
+    --font6:'Josefin Sans', sans-serif;
+}
+
+.font-cursive{
+    font-family: var(--font5);
+}
+.font-Josefin{
+    font-family: var(--font6);
+}
+.font-roboto-slab{
+    font-family: var(--font2);
+}
+
+.h-85{
+    height: 85vh;
+}
+.h-35{
+    height: 35vh;
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-h-100{
+    height: 100vh;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.p-b-18{
+    padding-bottom: 18px;
+}
+
+.p-t-18{
+    padding-top: 80px;
+}
+.p-t-30{
+    padding-top: 30px;
+}
+.m-t-40{
+    margin-top: 40px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.d-flex{
+    display: flex;
+}
+
+.bg-img{
+    background:rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background-size: cover;
+}
+.bg-img1{
+    background:rgba(0, 0, 0, 0.8) url('../img/isobg.jpg');
+}
+.bg-img2{
+    background:rgba(0, 0, 0, 0.8) url('../img/about.jpg');
+    background-size: contain;
+}
+.bg-img3{
+    background:rgba(0, 0, 0, 0.7) url('../img/contact1.jpg');
+    background-size: contain;
+}
+.bg-img4{
+    background:rgba(0, 0, 0, 0.7) url('../img/team1.jpg');
+    /* background-size: cover; */
+}
+
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.jc-sp-bt{
+    justify-content: space-between;
+}
+/* .btn{
+    cursor: pointer;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-family: var(--font2);
+    background: none;
+    border: 2px solid black;
+}
+.btn:hover{
+    background-color: var(--main-bg-color);
+    border-color: white;
+    color: white;
+    transition: all 0.5s ease-in-out;
+} */
+
+
+
+.t-head{
+    position: absolute;
+    color: #e1debc;
+    top: 23%;
+    font-size: 40px;
+    left: 11%;
+    font-family: var(--font2);
+}
+
+.bdrhead{
+    border-top: 5px solid #f2d64d;
+    top: 31%;
+    left: 11%;
+    position: absolute;
+    width: 55px;
+}
+
+@media (max-width:550px){
+    .t-head{
+        top: 19%;
+        font-size: 34px;
+    }
+    .bdrhead{
+        top: 27%;
+    }
+    .h-35{
+        height: 31vh;
+    }
+}

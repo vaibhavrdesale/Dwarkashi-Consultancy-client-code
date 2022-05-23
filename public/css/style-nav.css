@@ -1,0 +1,186 @@
+*{
+    padding: 0px;
+    margin:  0px;
+    box-sizing: border-box;
+}
+
+/* navigation styling */
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.6s;
+    z-index: 999;
+}
+.navigation .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+nav.sticky{
+    background-color: #fff;
+    transition: 0.6s;
+    z-index: 1000;
+    box-shadow: 2px 1px 27px #97a9e9
+}
+
+.logoDiv img{
+    position: relative;
+    width: 116px;
+    margin-left: 20px;
+    margin-top: 2px;
+    transition: 00.6s;
+}
+nav.sticky .logoDiv img{
+    width: 60px;
+    transition: 0.6s;
+}
+
+#ul{
+    position: relative;
+    display: flex;
+    margin-right: 20px;
+    transition: 00.6s;
+}
+nav.sticky #ul{
+    margin-top: 0px;
+    transition: 0.6s;
+}
+#ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 1px 2px;
+    transition: 00.6s;
+    /* padding: 0px 12px; */
+}
+#ul li a{
+    position: relative;
+    text-decoration: none;
+    font-size: 19px;
+    color: whitesmoke;
+    padding: 7px 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+#ul li a:hover{ 
+    color: tomato;
+}
+nav.sticky #ul li a{
+    color: black;
+}
+nav.sticky #ul li a:hover{
+    color: tomato;
+}
+
+.bar{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+.navigation-toggler{
+    display: none;
+}
+
+/* @media (max-width: 1060px){
+
+} */
+
+@media (max-width: 816px){
+
+    .navigation{
+        flex-direction: column;
+        /* height: 55%; */
+        justify-content: flex-start;
+    }
+    .navigation.navigationBg{
+        background-color:  rgb(0 0 0 / 96%);
+    }
+    .sticky.navigationBg{
+        background-color:  #fff;
+    }
+    #ul{
+        flex-direction: column;
+        text-align: center;
+        height: 40vh;
+        max-height: 0;
+        overflow: hidden;
+        margin: 0;
+        transition: all ease-in-out 0.5s;
+    }
+    #ul.open{
+        max-height: 40vh;
+    }
+    .logoDiv img{
+        margin-left: 0;
+    }
+    nav.sticky .navigation-toggler{
+        top: 13px;
+        border:2px solid black;
+        transform: all ease-in-out 0.3s;
+    }
+    nav.sticky .navigation-toggler span,
+    nav.sticky .navigation-toggler span::before,
+    nav.sticky .navigation-toggler span::after{
+        background-color: black;
+        transform: all ease-in-out 0.3s;
+        height: 2px;
+        width: 24px;
+    }
+    .navigation .navigation-toggler {
+        display: block;
+        position: absolute;
+        height: 34px;
+        top: 40px;
+        right: 20px;
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #fff;
+        /* border: none; */
+        /* border-radius: 4px; */
+        outline: none;
+        padding: 0 5px;
+        cursor: pointer;
+      }
+      .navigation .navigation-toggler span,
+      .navigation .navigation-toggler span::before,
+      .navigation .navigation-toggler span::after {
+        display: block;
+        content: '';
+        background-color: #fff;
+        height: 3px;
+        width: 28px;
+        border-radius: 4px;
+        transition: all ease-in-out 0.3s;
+      }
+      .navigation .navigation-toggler span::before {
+        transform: translateY(-8px);
+      }
+      .navigation .navigation-toggler span::after {
+        transform: translateY(5px);
+      }
+      
+      .navigation .navigation-toggler.open-navigation-toggler span {
+        /* transform: rotate(90deg); */
+        background-color: transparent;
+        /* transform: scale(0.85) rotate(270deg); */
+      }
+      .navigation .navigation-toggler.open-navigation-toggler span::before {
+        transform: translateY(0px) rotate(45deg);
+        /* transform: translateY(0px) scale(0.75) rotate(45deg); */
+      }
+      .navigation .navigation-toggler.open-navigation-toggler span::after {
+        transform: translateY(-3px) rotate(-45deg);
+        /* transform: translateY(-3px) scale(0.75) rotate(-45deg); */
+      }
+
+}

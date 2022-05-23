@@ -1,0 +1,52 @@
+.aboutBox{
+    padding: 51px 11px;
+}
+
+.aboutData{
+    margin: 0px 24px;
+    padding: 0px 35px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.aboutData p{
+    padding-bottom: 12px;
+}
+.aboutData ol{
+    padding-left: 33px;
+}
+
+.aboutImg{
+    padding: 0px 50px;
+}
+.aboutImg img{
+    height: 248px;
+    border-radius: 20px;
+}
+
+
+@media(max-width:1104px){
+     .aboutImg{
+         margin-bottom: 15px;
+         padding: 0px 20px;
+     }
+     .aboutImg img{
+         height: 284px;
+     }
+     .aboutBox{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 51px 0px;
+    }
+}
+@media(max-width:680px){
+    .aboutImg img{
+        height: 100%;
+        width: 100%;
+    }
+    .aboutData {
+        margin: 0px 10px;
+        padding: 0px 0px;
+        font-size: 17px;
+        line-height: 24px;
+    }
+}

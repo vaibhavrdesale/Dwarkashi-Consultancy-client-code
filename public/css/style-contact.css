@@ -1,0 +1,205 @@
+
+.contact-section{
+    background: #fff;
+    color: #101010;
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    max-width: 1160px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2.5rem;
+    /* align-items: center; */
+}
+.content h1{
+    font-size: 2.3rem;
+    margin-top: 8px;
+    padding-bottom: 8px;
+}
+.content h3{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.contactDetails{
+    padding-left: 30px;
+}
+.txtbold{
+    font-weight: 900;
+    color: tomato;
+    font-size: 21px;
+    margin-bottom: 8px;
+    margin-top: 18px;
+}
+
+.bdrbtm{
+    width: 41px;
+    height: 5px;
+    background: yellow;
+}
+.addrs{
+    line-height: 1.1;
+    margin: 20px 0;
+    font-size: 21px;
+}
+.addrs a{
+    text-decoration: none;
+    font-family: ui-sans-serif;
+    color: #063ea59c;
+}
+.addrs a:hover{
+    text-decoration: underline;
+}
+.social{
+    padding-left: 30px;
+}
+
+.content .social a{
+    text-decoration: none;
+    color: #101010;
+    margin-right: 1rem;
+    transition: color .3s ease;
+    font-size: 1.3rem;
+    
+}
+.content .social a:hover{
+    color: crimson;
+}
+
+input,textarea{
+    width: 100%;
+    color: #101010;
+    font-family: "Barlow" ,Open Sans;
+    font-size: 17px;
+    padding: .75rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #333;
+    margin: .6rem 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background: transparent;
+    resize: vertical;
+    transition: border .3s ease;
+}
+input:focus,textarea:focus{
+    border-bottom-color: crimson;
+}
+.form h1{
+    font-size: 2.1rem;
+    margin-top: 13px;
+    padding-bottom: 8px;
+}
+
+.form .flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex>*{
+    flex-basis: 49%;
+}
+::placeholder{
+    color: #101010;
+    font-weight: 400;
+}
+
+.form .btn{
+    width: 150px;
+    padding: .75rem 0;
+    border: none;
+    outline: none;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    transition: opacity .3s ease;
+}
+.form .btn:hover{
+    opacity: .7;
+}
+
+@media (max-width:700px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+.whatsapp img{
+    width: 31px;
+    padding-right: 9px;
+}
+.wt{
+    width: 270px;
+    margin-top: 18px;
+    margin-left: 30px;
+    background: #374952;
+}
+.wt a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.whatsapp{
+   
+    padding: 10px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.whatsapp:hover{
+    box-shadow: 1px 0px 8px #455 ;
+}
+
+.res h4{
+    display: none;
+    width: 280px;
+    color: green;
+}
+
+.mapCard{
+    padding: 30px 100px 50px 100px;
+}
+.mapCard iframe{
+    width: 100%;
+}
+
+@media (max-width:800px){
+    .mapCard{
+        padding: 0px;
+    }
+    .contactDetails {
+        padding-left: 0px;
+    }
+    .wt{
+        margin-left: 0px;
+    }
+    .social {
+        padding-left: 0px;
+    }
+}
+@media(max-width:400px){
+    .res-btn-box{
+        flex-direction: column;
+    }
+    .res h4{
+        padding-top: 12px;
+    }
+
+}
+@media(max-width:340px){
+    .container{
+        padding: 7px;
+    }
+}
+
+/* #455A64 */

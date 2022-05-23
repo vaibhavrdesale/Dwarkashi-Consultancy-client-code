@@ -1,0 +1,256 @@
+html{
+    scroll-behavior: smooth;
+}
+.serviceBox{
+    margin: 75px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.service-card{
+    padding: 0px 23px;
+    margin: 25px 12px;
+    width: 474px;
+    height: 387px;
+    box-shadow: 2px 3px 18px rgb(27, 26, 26);
+    border-radius: 10px;
+}
+.service-card a:hover{
+    transition: color .3s ease;
+    color: lightblue;
+}
+.service-card h4{
+    font-size: 28px;
+    text-align: center;
+    padding:10px 0px;
+}
+.service-card img{
+    height: 240px;
+}
+
+.service-card p{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+#iso-service-section{
+    padding: 60px;
+}
+
+.Head{
+    padding: 40px 0px;
+}
+.Head h1{
+    text-align: center;
+    font-size: 2.6rem;
+    text-shadow: 1px 2px 6px #010c07;
+    font-family: 'Roboto Slab';
+
+}
+.Head h4{
+    text-align: center;
+    font-family: 'Roboto Slab';
+}
+.Head h4 a{
+    padding: 2px 5px;
+    text-decoration: underline;
+    color: rgb(10, 131, 201);
+}
+.Head h4 a:hover{
+    text-decoration: none;
+}
+.isoInfo{
+    justify-content: space-between;
+}
+.isoImg img{
+    height: 250px;
+}
+.isoBen{
+    margin: 0px 0px 0px 82px;
+}
+.isoBen h2{
+    font-size: 29px;
+    padding-bottom: 14px;
+    font-family: 'Roboto Slab';
+}
+.isoBen ul{
+    list-style: circle;
+    padding-left: 40px;
+    font-size: 24px;
+    line-height: 46px;
+}
+
+.magmaInfo{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.magmaInfoCard{
+    width: 340px ;
+    margin: 0px 50px;
+    margin-bottom: 33px;
+    line-height: 35px;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 36px bisque;
+}
+.magmaInfoCard ol{
+    padding-left: 23px;
+}
+.magmaInfoCard ul{
+    padding-left: 23px;
+    list-style: circle;
+}
+.magmaResults{
+    padding: 47px;
+}
+.magmaResultCard{
+    width: 340px ;
+    margin: 0px 50px;
+    margin-bottom: 33px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.magmaResultCard ul{
+    padding-left: 23px;
+    list-style: circle;
+}
+.creoInfo{
+    justify-content: space-between;
+    padding: 10px 90px;
+}
+.creoData ol{
+    padding-left: 40px;
+    font-size: 22px;
+    line-height: 37px;
+    padding-top: 10px;
+}
+.creoVideo video{
+    border-radius: 10px;
+}
+
+@media (max-width: 1300px){
+    .service-card img {
+        height: 200px;
+    }
+    .service-card{
+        width: 400px;
+    }
+}
+@media (max-width: 870px){
+    .serviceBox{
+        align-items: center;
+        flex-direction: column;
+    }
+    .isoInfo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .isoBen{
+        align-items: center;
+        margin: 0px;
+    }
+    .isoBen ul{
+        font-size: 22px;
+        line-height: 35px;
+        padding-bottom: 18px;
+    }
+    .isoImg img{
+        height: 100%;
+        width: 100%;
+    }
+    .magmaInfo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .magmaResults {
+        padding: 0px;
+        flex-direction: column;
+    }
+    .Head h1{
+        font-size: 2.47rem;
+    }
+    .creoInfo{
+        flex-direction: column-reverse;
+        padding: 10px 0;
+    }
+    .creoVideo{
+        padding-bottom: 40px;
+    }
+    .creoData ol{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .isoImg{
+        height: 198px;
+    }
+}
+
+@media (max-width:816px){
+    .service-card img {
+        height: 117px;
+    }
+    .service-card h4{
+        font-size: 23px;
+    }
+    .serviceBox{
+        margin: 0px;
+        padding: 26px 0px;
+    }
+    .service-card p{
+        font-size: 17px;
+    }
+    .service-card{
+        height: 275px;
+        width: 260px;
+    }
+    .Head h1{
+        font-size: 2rem;
+    }
+    .Head h4{
+        font-size: 13px;
+    }
+    .isoBen h2{
+        font-size: 23px;
+    }
+    /* .isoBen ul{
+         padding-left: 25px; 
+    }  */
+    #iso-service-section {
+        padding: 0;
+    }
+    .magmaInfoCard{
+        width: 270px;
+        margin: 10px 0;
+        font-size: 17px;
+    }
+    .magmaResultCard{
+        margin: 8px 0px;
+        width: 100%;
+    }
+    .creoVideo video{
+        width: 100%;
+    }
+    .creoVideo{
+        width: 350px;
+    }
+    /* .creoData ol {
+        padding-left: 25px;
+    } */
+    
+}
+
+@media (max-width:304px){
+    .isoImg{
+        height: 163px;
+    }
+}
+
+@media (max-width:350px){
+    .creoVideo{
+        width: 278px;
+    }
+}
+
