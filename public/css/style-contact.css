@@ -107,8 +107,9 @@ input:focus,textarea:focus{
     flex-basis: 49%;
 }
 ::placeholder{
-    color: #101010;
+    color: crimson;
     font-weight: 400;
+    opacity: 75%;
 }
 
 .form .btn{
