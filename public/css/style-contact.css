@@ -109,7 +109,7 @@ input:focus,textarea:focus{
 ::placeholder{
     color: crimson;
     font-weight: 400;
-    opacity: 75%;
+    opacity: 72%;
 }
 
 .form .btn{
