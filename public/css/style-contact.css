@@ -39,7 +39,10 @@
     margin-bottom: 8px;
     margin-top: 18px;
 }
-
+.officeStyle{
+    color: rgb(104, 10, 99);
+    font-family: 'Roboto Slab';
+}
 .bdrbtm{
     width: 41px;
     height: 5px;
