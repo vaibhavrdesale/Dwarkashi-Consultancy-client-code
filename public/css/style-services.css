@@ -11,20 +11,23 @@ html{
 
 .service-card{
     padding: 0px 23px;
-    margin: 25px 12px;
+    margin: 25px 25px;
     width: 474px;
     height: 387px;
-    box-shadow: 2px 3px 18px rgb(27, 26, 26);
+    border: 2px #6a05058c solid;
+    /* box-shadow: 2px 3px 18px rgb(27, 26, 26); */
     border-radius: 10px;
 }
 .service-card a:hover{
     transition: color .3s ease;
-    color: lightblue;
+    color: rgb(1, 153, 153);
 }
 .service-card h4{
     font-size: 28px;
     text-align: center;
     padding:10px 0px;
+    font-family: var(--font9);
+    color: saddlebrown;
 }
 .service-card img{
     height: 240px;
@@ -32,8 +35,9 @@ html{
 
 .service-card p{
     text-align: center;
-    font-size: 22px;
+    font-size: 21px;
     padding-top: 5px;
+    font-family: var(--font9);
 }
 
 #iso-service-section{
@@ -46,7 +50,7 @@ html{
 .Head h1{
     text-align: center;
     font-size: 2.6rem;
-    text-shadow: 1px 2px 6px #010c07;
+    text-shadow: 1px 2px 4px #010c07;
     font-family: 'Roboto Slab';
 
 }

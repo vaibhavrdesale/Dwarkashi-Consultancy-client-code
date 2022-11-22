@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
 /* font-family: 'Besley', serif;
 font-family: 'Source Sans Pro', sans-serif; */
 
@@ -14,10 +16,25 @@ font-family: 'Source Sans Pro', sans-serif; */
     --font4:'Lobster', cursive;
     --font5: cursive;
     --font6:'Josefin Sans', sans-serif;
+    --font7:'IBM Plex Serif',Georgia,Times,serif;
+    --font8:'IBM Plex Sans',ibm-plex-sans,'Helvetica Neue',Arial,sans-serif;
+    --font9: 'Philosopher', sans-serif;
 }
 
+.font-philosopher{
+    font-family: var(--font9);
+}
 .font-cursive{
     font-family: var(--font5);
+}
+.font-lobster{
+    font-family: var(--font4);
+}
+.font-IBM-serif{
+    font-family: var(--font7);
+}
+.font-IBM-sans{
+    font-family: var(--font8);
 }
 .font-Josefin{
     font-family: var(--font6);
