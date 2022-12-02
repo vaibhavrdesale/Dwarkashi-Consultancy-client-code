@@ -103,6 +103,10 @@ font-family: 'Source Sans Pro', sans-serif; */
     background:rgba(0, 0, 0, 0.7) url('../img/team1.jpg');
     /* background-size: cover; */
 }
+.bg-img5{
+    background:rgba(0, 0, 0, 0.7) url('../img/anycastbg2.jpg');
+    background-size: cover;
+}
 
 .anchor{
     text-decoration: none;
@@ -142,16 +146,16 @@ font-family: 'Source Sans Pro', sans-serif; */
     top: 31%;
     left: 11%;
     position: absolute;
-    width: 55px;
+    width: 4.5rem;
 }
 
 @media (max-width:550px){
     .t-head{
         top: 19%;
-        font-size: 34px;
+        font-size: 27px;
     }
     .bdrhead{
-        top: 27%;
+        top: 25%;
     }
     .h-35{
         height: 31vh;

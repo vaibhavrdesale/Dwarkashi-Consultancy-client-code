@@ -91,9 +91,11 @@ nav.sticky #ul li a:hover{
     display: none;
 }
 
-/* @media (max-width: 1060px){
+.a:is(:link, :active, :visited).active{
+    color: tomato;
+}
 
-} */
+/* //For Responsive website */
 
 @media (max-width: 816px){
 

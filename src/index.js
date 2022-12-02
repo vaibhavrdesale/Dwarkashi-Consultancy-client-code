@@ -30,6 +30,19 @@ app.get('/team', (req, res) => {
 app.get('/contact', (req, res) => {
     res.render("contact")
 })
+app.get('/iso-service', (req, res) => {
+    res.render("iso-service")
+})
+app.get('/magma-service', (req, res) => {
+    res.render("magma-service")
+})
+app.get('/creo-service', (req, res) => {
+    res.render("creo-service")
+})
+app.get('/casting-service', (req, res) => {
+    res.render("casting-service")
+})
+
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)

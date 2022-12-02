@@ -1,6 +1,6 @@
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 .serviceBox{
     margin: 75px;
     padding: 20px;
@@ -40,12 +40,9 @@ html{
     font-family: var(--font9);
 }
 
-#iso-service-section{
-    padding: 60px;
-}
 
 .Head{
-    padding: 40px 0px;
+    padding-bottom: 13px;
 }
 .Head h1{
     text-align: center;
@@ -66,6 +63,11 @@ html{
 .Head h4 a:hover{
     text-decoration: none;
 }
+
+/* // iso service section */
+#iso-service-section{
+    padding: 60px;
+}
 .isoInfo{
     justify-content: space-between;
 }
@@ -78,18 +80,23 @@ html{
 .isoBen h2{
     font-size: 29px;
     padding-bottom: 14px;
-    font-family: 'Roboto Slab';
+    font-family: var(--font9);
+    color: teal;
 }
 .isoBen ul{
     list-style: circle;
     padding-left: 40px;
     font-size: 24px;
     line-height: 46px;
+    color: gray;
+    font-family: 'Alice';
 }
 
+/* //magma soft section  */
 .magmaInfo{
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 5rem;
 }
 .magmaInfoCard{
     width: 340px ;
@@ -97,12 +104,22 @@ html{
     margin-bottom: 33px;
     line-height: 35px;
     font-size: 20px;
-    border-radius: 15px;
-    box-shadow: 1px 1px 36px bisque;
+    border-radius: 12px;
+    box-shadow: 8px 15px 12px #ac82b540;
+}
+.magmaInfoCard h3{
+    padding: 5px 0px 0px 20px;
+    font-family: var(--font3);
+    color: teal;
 }
 .magmaInfoCard ol{
     padding-left: 23px;
+  
 }
+ .magmaInfoCard li{
+      font-family: 'Alice';
+    color: gray; 
+} 
 .magmaInfoCard ul{
     padding-left: 23px;
     list-style: circle;
@@ -115,25 +132,118 @@ html{
     margin: 0px 50px;
     margin-bottom: 33px;
     line-height: 35px;
-    font-size: 20px;
+    font-size: 18px;
+}
+.magmaResultCard h3{
+    font-family: var(--font3);
+    color: teal;
 }
 .magmaResultCard ul{
     padding-left: 23px;
     list-style: circle;
+    font-family: 'Alice';
+    color: gray;
 }
+
+/* //creo section  */
 .creoInfo{
     justify-content: space-between;
     padding: 10px 90px;
+    margin-top: 3.5rem;
 }
 .creoData ol{
     padding-left: 40px;
     font-size: 22px;
     line-height: 37px;
     padding-top: 10px;
+    font-family: 'Alice';
+    color: gray;
+}
+.creoData h2{
+    font-family: var(--font9);
+    color: teal;
 }
 .creoVideo video{
     border-radius: 10px;
 }
+
+/* //anycast */
+
+/* #anycast-service-section{
+     height: 44rem; 
+     background-color: #00ffd71a; 
+} */
+.anycast-info{
+    margin-top: 5rem;
+}
+.anycast-img{
+    margin: 0px 59px 0px 0px;
+}
+.anycast-data p{
+    padding-top: 3rem;
+    line-height: 2.5rem;
+    font-size: 29px;
+    color: olive
+}
+.anycast-data{
+    padding: 0px 8rem;
+    text-align: center;
+    font-family: var(--font3);
+    
+}
+.typebox{
+    margin: 2.5rem 0px;
+    background-image: linear-gradient(202deg, #86eddec4, transparent);
+    border-radius: 63% 41%;
+}
+.typebox h2{
+    text-align: center;
+    color: #016666;
+    margin: 4.5rem 0px 1.5rem 0px;
+    padding-top: 1.3rem;
+}
+.typediv{
+    line-height: 2.5rem;
+    padding: 15px 0px;
+    font-family: 'Alice';
+    color: #4a4848;
+    justify-content: space-evenly;
+    font-size: 23px;
+    padding-bottom: 1.2rem;
+}
+.keyfeaturebox{
+    margin: 4rem 0px 3rem 0px;
+    background-image: linear-gradient(179deg, #b1b0af08, #aaaba952);
+}
+.keyfeaturebox h2{
+    font-family: var(--font9);
+    padding: 25px 0px 0px 5rem;
+    color: teal;
+    font-size: 27px;
+}
+
+.keyfeaturebox ol{
+    font-family: var(--font7);
+    line-height: 3rem;
+    padding: 2rem 5rem;
+    color: #665032;
+    font-size: 24px;
+}
+.anycastintro{
+    line-height: 3rem;
+    color: #4c4545;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 3rem;
+    font-family: var(--font4);
+    padding: 1px 14rem;
+}
+.anycastintro h2{
+    padding-bottom: 20px;
+}
+
+
+/* //For Responsive website  */
 
 @media (max-width: 1300px){
     .service-card img {
@@ -143,6 +253,17 @@ html{
         width: 400px;
     }
 }
+
+@media(max-width:1100) {
+    .anycast-data p {
+        padding-top: 1rem;
+        font-size: 21px;
+    }
+    .anycast-data {
+        padding: 0px 3rem;
+    }
+}
+
 @media (max-width: 870px){
     .serviceBox{
         align-items: center;
@@ -172,6 +293,7 @@ html{
     .magmaResults {
         padding: 0px;
         flex-direction: column;
+        margin-left: 2rem;
     }
     .Head h1{
         font-size: 2.47rem;
@@ -179,6 +301,7 @@ html{
     .creoInfo{
         flex-direction: column-reverse;
         padding: 10px 0;
+        margin-top: auto;
     }
     .creoVideo{
         padding-bottom: 40px;
@@ -187,8 +310,54 @@ html{
         font-size: 16px;
         line-height: 28px;
     }
+    .creoData h2 {
+        margin-left: 1rem;
+    }
     .isoImg{
         height: 198px;
+    }
+    .anycast-img{
+        display: none;
+    }
+    .anycast-img img{
+        display: none;
+    }
+    .anycast-data p {
+        padding-top: 3rem;
+        /* line-height: 2.5rem; */
+        font-size: 18px;
+        color: olive;
+    }
+    .anycast-data{
+        padding: 0px; 
+    }
+    .anycast-info {
+        margin-top: 0;
+    }
+    .typebox{
+        border-radius: 24%;
+    }
+    .typebox h2{
+        font-size: 20px;
+        margin: 4.5rem 0px 1rem 0px;
+    }
+    .typediv{
+        padding: 12px 0px;
+        font-size: 14px;
+    }
+    .keyfeaturebox ol {
+        padding: 2rem 2rem;
+        font-size: 17px;
+        line-height: 2rem;
+    }
+    .keyfeaturebox h2 {
+        padding: 18px 0px 0px 2rem;
+        font-size: 22px;
+    }
+    .anycastintro {
+        line-height: 23px;
+        font-size: 15px;
+        padding: 0px; 
     }
 }
 
@@ -216,12 +385,11 @@ html{
     .Head h4{
         font-size: 13px;
     }
-    .isoBen h2{
+    .isoBen h2 {
         font-size: 23px;
+        padding: 22px 0px 13px 15px;
     }
-    /* .isoBen ul{
-         padding-left: 25px; 
-    }  */
+
     #iso-service-section {
         padding: 0;
     }
@@ -236,14 +404,12 @@ html{
     }
     .creoVideo video{
         width: 100%;
+        margin-left: 5px;
     }
     .creoVideo{
         width: 350px;
     }
-    /* .creoData ol {
-        padding-left: 25px;
-    } */
-    
+   
 }
 
 @media (max-width:304px){
@@ -257,4 +423,14 @@ html{
         width: 278px;
     }
 }
-
+@media (max-width:450px){
+    .typediv{
+        font-size: 12px;
+    }
+    .typebox h2{
+        font-size: 15px;
+    }
+    .magmaInfo{
+        margin-top: 3rem;
+    }
+}
