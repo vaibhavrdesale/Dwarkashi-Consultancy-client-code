@@ -409,7 +409,9 @@
     .creoVideo{
         width: 350px;
     }
-   
+   .f-23{
+       font-size: 23px;
+   }
 }
 
 @media (max-width:304px){
