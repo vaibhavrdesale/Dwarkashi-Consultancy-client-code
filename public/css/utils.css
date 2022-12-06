@@ -104,7 +104,7 @@ font-family: 'Source Sans Pro', sans-serif; */
     /* background-size: cover; */
 }
 .bg-img5{
-    background:rgba(0, 0, 0, 0.7) url('../img/anycastbg2.jpg');
+    background:rgba(0, 0, 0, 0.5) url('../img/anycastbg2.jpg');
     background-size: cover;
 }
 
