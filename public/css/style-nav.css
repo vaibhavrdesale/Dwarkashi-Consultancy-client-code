@@ -74,6 +74,7 @@ nav.sticky #ul{
 #ul li a:hover{ 
     color: tomato;
 }
+
 nav.sticky #ul li a{
     color: black;
 }
@@ -95,10 +96,31 @@ nav.sticky #ul li a:hover{
     color: tomato;
 }
 
+.subServices{
+    display: none;
+    right: 45%;
+    position: absolute;
+    background-color: #d3efec85;
+    top: 2.5rem;
+    border-radius: 8px;
+    line-height: 34px;
+    font-family: 'Alice';
+    z-index: 1111;
+}
+
+nav ul li ul li a{
+    color: black;
+}
+nav ul li:hover .subServices{ 
+    display: block;
+}
+
 /* //For Responsive website */
 
 @media (max-width: 816px){
-
+    nav ul li:hover .subServices{ 
+        display: none;
+    }
     .navigation{
         flex-direction: column;
         /* height: 55%; */
