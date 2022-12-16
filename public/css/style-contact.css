@@ -39,6 +39,10 @@
     margin-bottom: 8px;
     margin-top: 18px;
 }
+.txtbold i{
+    color: #375791;
+    font-size: 18px;
+}
 .officeStyle{
     color: rgb(104, 10, 99);
     font-family: 'Roboto Slab';
