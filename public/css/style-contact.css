@@ -40,8 +40,9 @@
     margin-top: 18px;
 }
 .txtbold i{
-    color: #375791;
+    color: black;
     font-size: 18px;
+    padding-right: 4px;
 }
 .officeStyle{
     color: rgb(104, 10, 99);
