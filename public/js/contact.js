@@ -24,7 +24,7 @@ function sendMail() {
                   res.style.display="none";
               }, 4000); 
             } else {
-                alert('Your message is not send try few minutes after');
+                alert('Your message is not send try again few minutes late');
             }
         }
     );
