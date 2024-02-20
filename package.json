@@ -11,8 +11,10 @@
   "author": "vaibhav desale",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "hbs": "^4.1.2"
+    "express": "^4.18.2",
+    "hbs": "^4.1.2",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
