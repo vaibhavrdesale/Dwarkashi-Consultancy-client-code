@@ -1,7 +1,3 @@
-# This is my first proper and simple website
+# Client Services Website
 
-# this used by a consultancy to advertise them more efficiently
-
-# I am used basic languages for developing for frontend- html(handelbars) css and js
-
-# Backend- nodejs
+Welcome to the repository for my client services website! This static website was created to showcase the various services offered by my client. The project utilizes JavaScript, Handlebars for HTML templating, and CSS for styling.
