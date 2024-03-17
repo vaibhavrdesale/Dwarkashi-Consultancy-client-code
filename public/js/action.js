@@ -22,6 +22,9 @@ const navLinks = document.querySelectorAll('nav a').forEach(link =>{
     }
 })
 
+const currentDate = new Date();
+const currentYear = currentDate.getFullYear();
 
+document.getElementById("copyright-year").textContent = `copyright ©${currentYear} dwarkashiConsultancy`;
 
 
